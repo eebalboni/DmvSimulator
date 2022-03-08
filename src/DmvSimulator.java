@@ -4,8 +4,8 @@ public class DmvSimulator {
 
     public static void main (String args[]){
         System.out.println("Hello and welcome to the DMV!");
-        //generates a number between 1 and 100
-        userNum = (int) ((Math.random() *100) + 1);
+        //generates a number between 1 and 200
+        userNum = (int) ((Math.random() *200) + 1);
         
         //gives user the information they need
         System.out.println("Your number for the queue is: " + userNum);
@@ -15,9 +15,9 @@ public class DmvSimulator {
 
         //loops around to the number for the user
         do{
-            if(userNum == 100){
+            if(userNum == 200){
                 numCall = 0;
-            }else if(numCall != userNum && numCall == 100){
+            }else if(numCall != userNum && numCall == 200){
                 //System.out.println("Calling number: " + numCall);
                 numCall = 0;
             }else{
