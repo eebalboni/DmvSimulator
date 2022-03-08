@@ -1,6 +1,9 @@
+import java.util.Random;
+
 public class DmvSimulator {
     private static int userNum;
     private static int numCall;
+
 
     public static void main (String args[]){
         System.out.println("Hello and welcome to the DMV!");
@@ -26,7 +29,17 @@ public class DmvSimulator {
             System.out.println("Calling number: " + numCall);
 
         } while(numCall != userNum);
-        System.out.println("Leave, you have the wrong paperwork. mWahahaha!!! ");
+
+
+        if(Math.random() < 99){
+            System.out.println("Leave, you have the wrong paperwork. mWahahaha!!! ");
+        }else{
+            System.out.println("You have the correct paperwork. Thank you.");
+        }
+
+
+
+
 
     }
 }
