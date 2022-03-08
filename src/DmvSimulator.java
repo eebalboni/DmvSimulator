@@ -26,7 +26,7 @@ public class DmvSimulator {
             System.out.println("Calling number: " + numCall);
 
         } while(numCall != userNum);
-        System.out.println("Sorry you have the wrong paperwork.");
+        System.out.println("Leave, you have the wrong paperwork.");
 
     }
 }
