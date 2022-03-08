@@ -32,10 +32,13 @@ public class DmvSimulator {
 
 
         if(Math.random() < 99){
-            System.out.println("Leave, you have the wrong paperwork.");
+            System.out.println("Leave, you have the wrong paperwork. mWahahaha!!! ");
         }else{
             System.out.println("You have the correct paperwork. Thank you.");
         }
+
+
+
 
 
     }
